@@ -9,12 +9,12 @@ using System.Windows.Forms;
 
 namespace HouseManageBackground
 {
-    public partial class Form1 : Form
+    public partial class welcomeForm : Form
     {
         string name = "111";
         string password = "111";
         int max = 0;
-        public Form1()
+        public welcomeForm()
         {
             InitializeComponent();
         }
