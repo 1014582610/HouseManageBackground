@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace HouseManageBackground
 {
-    public partial class Form2 : Form
+    public partial class MainForm : Form
     {
-        public Form2()
+        public MainForm()
         {
             InitializeComponent();
         }

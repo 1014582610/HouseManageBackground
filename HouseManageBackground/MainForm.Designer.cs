@@ -1,6 +1,6 @@
 ﻿namespace HouseManageBackground
 {
-    partial class Form2
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.

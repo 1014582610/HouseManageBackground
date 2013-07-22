@@ -9,12 +9,12 @@ using System.Windows.Forms;
 
 namespace HouseManageBackground
 {
-    public partial class welcomeForm : Form
+    public partial class WelcomeForm : Form
     {
         string name = "111";
         string password = "111";
         int max = 0;
-        public welcomeForm()
+        public WelcomeForm()
         {
             InitializeComponent();
         }
@@ -28,7 +28,7 @@ namespace HouseManageBackground
                     if (max < 3)
                     {
                         max++;
-                        Form2 form = new Form2();
+                        MainForm form = new MainForm();
                         form.Show();
                     }
                     else
