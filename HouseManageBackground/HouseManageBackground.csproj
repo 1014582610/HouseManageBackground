@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="memberForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memberForm1.Designer.cs">
+      <DependentUpon>memberForm1.cs</DependentUpon>
+    </Compile>
     <Compile Include="WelcomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="memberForm1.resx">
+      <DependentUpon>memberForm1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WelcomeForm.resx">
       <DependentUpon>WelcomeForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +109,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\无标题.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\member_background.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

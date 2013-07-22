@@ -73,7 +73,19 @@ namespace HouseManageBackground
             }
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void memberButton1_Click(object sender, EventArgs e)
+        {
+            memberForm1 form = new memberForm1();
+            form.Show();
+
+        }
+
+        private void memberButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void memberButton3_Click(object sender, EventArgs e)
         {
 
         }

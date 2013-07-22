@@ -88,6 +88,13 @@ namespace HouseManageBackground.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap member_background {
+            get {
+                object obj = ResourceManager.GetObject("member_background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap 无标题 {
             get {
                 object obj = ResourceManager.GetObject("无标题", resourceCulture);
