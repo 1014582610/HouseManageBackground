@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="housemanagementDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>housemanagementDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="memberForm1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +90,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
+    <None Include="housemanagementDataSet.xsc">
+      <DependentUpon>housemanagementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="housemanagementDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>housemanagementDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="housemanagementDataSet.xss">
+      <DependentUpon>housemanagementDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

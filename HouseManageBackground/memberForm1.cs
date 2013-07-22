@@ -15,5 +15,12 @@ namespace HouseManageBackground
         {
             InitializeComponent();
         }
+
+        private void memberForm1_Load(object sender, EventArgs e)
+        {
+            // TODO: 这行代码将数据加载到表“housemanagementDataSet.person”中。您可以根据需要移动或删除它。
+            this.personTableAdapter.Fill(this.housemanagementDataSet.person);
+
+        }
     }
 }
