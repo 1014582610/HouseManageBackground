@@ -81,6 +81,13 @@ namespace HouseManageBackground.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap go {
+            get {
+                object obj = ResourceManager.GetObject("go", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap mainHead {
             get {
                 object obj = ResourceManager.GetObject("mainHead", resourceCulture);

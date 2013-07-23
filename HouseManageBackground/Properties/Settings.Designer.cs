@@ -32,5 +32,15 @@ namespace HouseManageBackground.Properties {
                 return ((string)(this["housemanagementConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LENOVO-PC;Initial Catalog=fcgl;Integrated Security=True")]
+        public string fcglConnectionString {
+            get {
+                return ((string)(this["fcglConnectionString"]));
+            }
+        }
     }
 }
