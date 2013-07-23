@@ -49,6 +49,25 @@ namespace HouseManageBackground
             // TODO: 这行代码将数据加载到表“fcglDataSet.salehouse”中。您可以根据需要移动或删除它。
             this.salehouseTableAdapter.Fill(this.fcglDataSet.salehouse);
 
+
+            //隐藏详细信息面板
+            panelDetail.Hide();
+        }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            panelDetail.Hide();
+        }
+
+        private void buttonToDetail_Click(object sender, EventArgs e)
+        {
+            panelDetail.Show();
+            panelDetail.Dock = DockStyle.Fill;
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
