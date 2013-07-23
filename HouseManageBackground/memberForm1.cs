@@ -6,7 +6,6 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using CrystalDecisions.CrystalReports.TemplateEngine;
 namespace HouseManageBackground
 {
     public partial class memberForm1 : Form

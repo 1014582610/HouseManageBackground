@@ -109,6 +109,18 @@
     <Compile Include="memberMainInfo.Designer.cs">
       <DependentUpon>memberMainInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="RentHouseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RentHouseForm.Designer.cs">
+      <DependentUpon>RentHouseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleHouseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleHouseForm.Designer.cs">
+      <DependentUpon>SaleHouseForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="WelcomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +140,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="memberMainInfo.resx">
       <DependentUpon>memberMainInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RentHouseForm.resx">
+      <DependentUpon>RentHouseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleHouseForm.resx">
+      <DependentUpon>SaleHouseForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WelcomeForm.resx">
       <DependentUpon>WelcomeForm.cs</DependentUpon>
