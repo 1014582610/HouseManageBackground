@@ -97,6 +97,30 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>fcglDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="HouseInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HouseInfor.Designer.cs">
+      <DependentUpon>HouseInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HouseLookUpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HouseLookUpForm.Designer.cs">
+      <DependentUpon>HouseLookUpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HouseMemberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HouseMemberForm.Designer.cs">
+      <DependentUpon>HouseMemberForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HouseSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HouseSelectForm.Designer.cs">
+      <DependentUpon>HouseSelectForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="memberForm1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +147,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="HouseInfor.resx">
+      <DependentUpon>HouseInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HouseLookUpForm.resx">
+      <DependentUpon>HouseLookUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HouseMemberForm.resx">
+      <DependentUpon>HouseMemberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HouseSelectForm.resx">
+      <DependentUpon>HouseSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="memberForm1.resx">
       <DependentUpon>memberForm1.cs</DependentUpon>
     </EmbeddedResource>
@@ -183,10 +219,46 @@
     <None Include="Resources\无标题.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\member_background.jpg" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+    <None Include="Resources\change.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_header .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_header.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memberMainInfor_background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memberMainInfor_background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\our_customers_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house_background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HouseInfor_background.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

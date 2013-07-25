@@ -6,7 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using CrystalDecisions.CrystalReports.TemplateEngine;
+using System.Data;
+using System.Data.SqlClient;
 namespace HouseManageBackground
 {
     public partial class memberForm1 : Form
@@ -26,12 +27,15 @@ namespace HouseManageBackground
         {
             // TODO: 这行代码将数据加载到表“fcglDataSet.person”中。您可以根据需要移动或删除它。
             this.personTableAdapter.Fill(this.fcglDataSet.person);
-            
+            SqlConnection conn = new SqlConnection(Properties.Settings.Default.fcglConnectionString);
+            string str = "select * from member";
+            SqlDataAdapter member_adapter = new SqlDataAdapter(str, conn);
+            member_adapter.Fill(this.fcglDataSet.member);
             InitDataset();
         }
         private void InitDataset()
         {
-            pageSize = 2;
+            pageSize = 5;
             pageMaxSize = this.fcglDataSet.person.Rows.Count;
             pageCount = (pageMaxSize / pageSize);
             if ((pageMaxSize % pageSize) > 0)
@@ -126,12 +130,12 @@ namespace HouseManageBackground
                     {
                         table2.ImportRow(this.fcglDataSet.member.Rows[i]);
                     }
-                    table1.Merge(table2,true);
-                    MessageBox.Show(table1.Rows[1]["names"].ToString());
-                    /*DataRow row = this.fcglDataSet.person[e.RowIndex];
+                    table1.Merge(table2);
+                    int position = pageSize * (pageCurrent - 1)+e.RowIndex;
+                    DataRow row = table1.Rows[position];
                     memberMainInfo form = new memberMainInfo();
                     form.Show();
-                    form.form_load(row);*/
+                    form.form_load(row);
                 }
             }
         }
