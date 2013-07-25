@@ -60,6 +60,7 @@ namespace HouseManageBackground.Properties {
             }
         }
         
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap add_header_ {
             get {
                 object obj = ResourceManager.GetObject("add_header ", resourceCulture);
@@ -67,11 +68,11 @@ namespace HouseManageBackground.Properties {
             }
         }
         
-
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
+=======
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+>>>>>>> f95303f532f33c20a9e6841dff7d8960893af71e
         internal static System.Drawing.Bitmap background {
             get {
                 object obj = ResourceManager.GetObject("background", resourceCulture);
@@ -99,40 +100,60 @@ namespace HouseManageBackground.Properties {
             }
         }
         
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap change {
             get {
                 object obj = ResourceManager.GetObject("change", resourceCulture);
+=======
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap exampleAgent {
+            get {
+                object obj = ResourceManager.GetObject("exampleAgent", resourceCulture);
+>>>>>>> f95303f532f33c20a9e6841dff7d8960893af71e
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap close {
             get {
                 object obj = ResourceManager.GetObject("close", resourceCulture);
+=======
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap exampleHouse1 {
+            get {
+                object obj = ResourceManager.GetObject("exampleHouse1", resourceCulture);
+>>>>>>> f95303f532f33c20a9e6841dff7d8960893af71e
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap delete_header {
             get {
                 object obj = ResourceManager.GetObject("delete_header", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-
+=======
+        /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
         internal static System.Drawing.Bitmap exampleMember1 {
             get {
                 object obj = ResourceManager.GetObject("exampleMember1", resourceCulture);
+>>>>>>> f95303f532f33c20a9e6841dff7d8960893af71e
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
+<<<<<<< HEAD
+=======
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+>>>>>>> f95303f532f33c20a9e6841dff7d8960893af71e
         internal static System.Drawing.Bitmap go {
             get {
                 object obj = ResourceManager.GetObject("go", resourceCulture);
@@ -140,10 +161,10 @@ namespace HouseManageBackground.Properties {
             }
         }
         
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap house {
             get {
                 object obj = ResourceManager.GetObject("house", resourceCulture);
-
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -162,6 +183,11 @@ namespace HouseManageBackground.Properties {
             }
         }
         
+=======
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+>>>>>>> f95303f532f33c20a9e6841dff7d8960893af71e
         internal static System.Drawing.Bitmap mainHead {
             get {
                 object obj = ResourceManager.GetObject("mainHead", resourceCulture);
@@ -179,6 +205,7 @@ namespace HouseManageBackground.Properties {
             }
         }
         
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap memberMainInfor_background {
             get {
                 object obj = ResourceManager.GetObject("memberMainInfor_background", resourceCulture);
@@ -221,9 +248,11 @@ namespace HouseManageBackground.Properties {
             }
         }
         
+=======
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+>>>>>>> f95303f532f33c20a9e6841dff7d8960893af71e
         internal static System.Drawing.Bitmap 无标题 {
             get {
                 object obj = ResourceManager.GetObject("无标题", resourceCulture);
