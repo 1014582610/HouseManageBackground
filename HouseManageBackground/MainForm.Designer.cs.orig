@@ -45,12 +45,7 @@
             this.agentButton = new System.Windows.Forms.Button();
             this.memberPanel = new System.Windows.Forms.Panel();
             this.memberButton3 = new System.Windows.Forms.Button();
-            this.memberButton2 = new System.Windows.Forms.Button();
-
             this.memberButton1 = new System.Windows.Forms.Button();
-            this.agentPanel = new System.Windows.Forms.Panel();
-            this.agentButton = new System.Windows.Forms.Button();
-
             this.housePanel = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
@@ -61,8 +56,6 @@
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.otherPanel.SuspendLayout();
-            this.memberPanel.SuspendLayout();
-
             this.agentPanel.SuspendLayout();
             this.memberPanel.SuspendLayout();
             this.housePanel.SuspendLayout();
@@ -108,8 +101,6 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.otherPanel);
-            this.splitContainer1.Panel2.Controls.Add(this.memberPanel);
-
             this.splitContainer1.Panel2.Controls.Add(this.agentPanel);
             this.splitContainer1.Panel2.Controls.Add(this.housePanel);
             this.splitContainer1.Size = new System.Drawing.Size(1008, 451);
@@ -227,13 +218,8 @@
             this.memberPanel.BackColor = System.Drawing.Color.Transparent;
             this.memberPanel.BackgroundImage = global::HouseManageBackground.Properties.Resources.member_background;
             this.memberPanel.Controls.Add(this.memberButton3);
-            this.memberPanel.Controls.Add(this.memberButton2);
-
             this.memberPanel.Controls.Add(this.memberButton1);
             this.memberPanel.Location = new System.Drawing.Point(217, 200);
-            this.memberPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.memberPanel.Location = new System.Drawing.Point(0, 0);
-
             this.memberPanel.Name = "memberPanel";
             this.memberPanel.Size = new System.Drawing.Size(123, 78);
             this.memberPanel.TabIndex = 2;
@@ -250,17 +236,6 @@
             this.memberButton3.UseVisualStyleBackColor = false;
             this.memberButton3.Click += new System.EventHandler(this.memberButton3_Click);
             // 
-            // memberButton2
-            // 
-            this.memberButton2.Location = new System.Drawing.Point(159, 250);
-            this.memberButton2.Name = "memberButton2";
-            this.memberButton2.Size = new System.Drawing.Size(94, 39);
-            this.memberButton2.TabIndex = 1;
-            this.memberButton2.Text = "修改信息";
-            this.memberButton2.UseVisualStyleBackColor = true;
-            this.memberButton2.Click += new System.EventHandler(this.memberButton2_Click);
-            // 
-
             // memberButton1
             // 
             this.memberButton1.BackColor = System.Drawing.Color.Transparent;
@@ -273,7 +248,6 @@
             this.memberButton1.UseVisualStyleBackColor = false;
             this.memberButton1.Click += new System.EventHandler(this.memberButton1_Click);
             // 
-
             // housePanel
             // 
             this.housePanel.Controls.Add(this.button7);
@@ -321,8 +295,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.otherPanel.ResumeLayout(false);
-            this.memberPanel.ResumeLayout(false);
-
             this.agentPanel.ResumeLayout(false);
             this.memberPanel.ResumeLayout(false);
             this.housePanel.ResumeLayout(false);
@@ -351,9 +323,13 @@
         private System.Windows.Forms.Panel agentPanel;
         private System.Windows.Forms.Button agentButton;
         private System.Windows.Forms.Button memberButton3;
-        private System.Windows.Forms.ToolTip toolTip1;
+<<<<<<< HEAD
+        private System.Windows.Forms.Button memberButton2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+=======
+        private System.Windows.Forms.ToolTip toolTip1;
+>>>>>>> 43d2f41d712433b263c203e4e3eb5f9a2d87cc98
 
     }
 }

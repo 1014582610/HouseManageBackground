@@ -6,10 +6,11 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+<<<<<<< HEAD
 using System.Data;
 using System.Data.SqlClient;
-
-using System.Data.SqlClient;
+=======
+>>>>>>> f95303f532f33c20a9e6841dff7d8960893af71e
 namespace HouseManageBackground
 {
     public partial class memberForm1 : Form

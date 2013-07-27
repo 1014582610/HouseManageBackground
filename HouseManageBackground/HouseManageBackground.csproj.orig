@@ -178,6 +178,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Delegate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +191,15 @@
     <Compile Include="Management.Designer.cs">
       <DependentUpon>Management.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AgentForm.resx">
+      <DependentUpon>AgentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agent_Info.resx">
+      <DependentUpon>Agent_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management.resx">
+      <DependentUpon>Management.cs</DependentUpon>
+=======
     <EmbeddedResource Include="HouseInfor.resx">
       <DependentUpon>HouseInfor.cs</DependentUpon>
     </EmbeddedResource>
@@ -201,16 +211,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HouseSelectForm.resx">
       <DependentUpon>HouseSelectForm.cs</DependentUpon>
-    </EmbeddedResource>
-
-    <EmbeddedResource Include="AgentForm.resx">
-      <DependentUpon>AgentForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Agent_Info.resx">
-      <DependentUpon>Agent_Info.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Management.resx">
-      <DependentUpon>Management.cs</DependentUpon>
+>>>>>>> 43d2f41d712433b263c203e4e3eb5f9a2d87cc98
     </EmbeddedResource>
     <EmbeddedResource Include="memberForm1.resx">
       <DependentUpon>memberForm1.cs</DependentUpon>

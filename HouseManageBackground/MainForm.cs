@@ -14,6 +14,7 @@ namespace HouseManageBackground
         public MainForm()
         {
             InitializeComponent();
+            
         }
         
         private void Form2_Load(object sender, EventArgs e)
@@ -58,6 +59,7 @@ namespace HouseManageBackground
                 agentPanel.Hide();
                 housePanel.Hide();
                 otherPanel.Hide();
+                
             }
         }
 
@@ -80,14 +82,10 @@ namespace HouseManageBackground
 
         }
 
-        private void memberButton2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void memberButton3_Click(object sender, EventArgs e)
         {
-
+            HouseSelectForm form = new HouseSelectForm();
+            form.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
