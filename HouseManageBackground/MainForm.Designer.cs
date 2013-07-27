@@ -38,12 +38,14 @@
             this.agentControlButton = new System.Windows.Forms.Button();
             this.otherPanel = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
+            this.agentPanel = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.agentButton = new System.Windows.Forms.Button();
             this.memberPanel = new System.Windows.Forms.Panel();
             this.memberButton3 = new System.Windows.Forms.Button();
             this.memberButton2 = new System.Windows.Forms.Button();
             this.memberButton1 = new System.Windows.Forms.Button();
-            this.agentPanel = new System.Windows.Forms.Panel();
-            this.agentButton = new System.Windows.Forms.Button();
             this.housePanel = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -53,8 +55,8 @@
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.otherPanel.SuspendLayout();
-            this.memberPanel.SuspendLayout();
             this.agentPanel.SuspendLayout();
+            this.memberPanel.SuspendLayout();
             this.housePanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -98,7 +100,6 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.otherPanel);
-            this.splitContainer1.Panel2.Controls.Add(this.memberPanel);
             this.splitContainer1.Panel2.Controls.Add(this.agentPanel);
             this.splitContainer1.Panel2.Controls.Add(this.housePanel);
             this.splitContainer1.Size = new System.Drawing.Size(1008, 451);
@@ -107,8 +108,8 @@
             // 
             // otherControlButton
             // 
-            this.otherControlButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.otherControlButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.otherControlButton.Location = new System.Drawing.Point(12, 273);
             this.otherControlButton.Name = "otherControlButton";
             this.otherControlButton.Size = new System.Drawing.Size(144, 35);
@@ -119,8 +120,8 @@
             // 
             // memberControlButton
             // 
-            this.memberControlButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.memberControlButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.memberControlButton.Location = new System.Drawing.Point(12, 200);
             this.memberControlButton.Name = "memberControlButton";
             this.memberControlButton.Size = new System.Drawing.Size(144, 35);
@@ -131,8 +132,8 @@
             // 
             // houseControlButton
             // 
-            this.houseControlButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.houseControlButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.houseControlButton.Location = new System.Drawing.Point(12, 127);
             this.houseControlButton.Name = "houseControlButton";
             this.houseControlButton.Size = new System.Drawing.Size(144, 35);
@@ -143,8 +144,8 @@
             // 
             // agentControlButton
             // 
-            this.agentControlButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.agentControlButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.agentControlButton.Location = new System.Drawing.Point(12, 54);
             this.agentControlButton.Name = "agentControlButton";
             this.agentControlButton.Size = new System.Drawing.Size(144, 35);
@@ -170,16 +171,56 @@
             this.button9.Text = "other4";
             this.button9.UseVisualStyleBackColor = true;
             // 
+            // agentPanel
+            // 
+            this.agentPanel.Controls.Add(this.button2);
+            this.agentPanel.Controls.Add(this.button1);
+            this.agentPanel.Controls.Add(this.agentButton);
+            this.agentPanel.Controls.Add(this.memberPanel);
+            this.agentPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.agentPanel.Location = new System.Drawing.Point(0, 0);
+            this.agentPanel.Name = "agentPanel";
+            this.agentPanel.Size = new System.Drawing.Size(833, 451);
+            this.agentPanel.TabIndex = 0;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(405, 133);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "信息管理";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(405, 70);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "录入新人";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // agentButton
+            // 
+            this.agentButton.Location = new System.Drawing.Point(87, 42);
+            this.agentButton.Name = "agentButton";
+            this.agentButton.Size = new System.Drawing.Size(134, 78);
+            this.agentButton.TabIndex = 0;
+            this.agentButton.Text = "agent1";
+            this.agentButton.UseVisualStyleBackColor = true;
+            // 
             // memberPanel
             // 
             this.memberPanel.BackgroundImage = global::HouseManageBackground.Properties.Resources.member_background;
             this.memberPanel.Controls.Add(this.memberButton3);
             this.memberPanel.Controls.Add(this.memberButton2);
             this.memberPanel.Controls.Add(this.memberButton1);
-            this.memberPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.memberPanel.Location = new System.Drawing.Point(0, 0);
+            this.memberPanel.Location = new System.Drawing.Point(217, 200);
             this.memberPanel.Name = "memberPanel";
-            this.memberPanel.Size = new System.Drawing.Size(833, 451);
+            this.memberPanel.Size = new System.Drawing.Size(123, 78);
             this.memberPanel.TabIndex = 2;
             // 
             // memberButton3
@@ -211,23 +252,6 @@
             this.memberButton1.Text = "查看信息";
             this.memberButton1.UseVisualStyleBackColor = true;
             this.memberButton1.Click += new System.EventHandler(this.memberButton1_Click);
-            // 
-            // agentPanel
-            // 
-            this.agentPanel.Controls.Add(this.agentButton);
-            this.agentPanel.Location = new System.Drawing.Point(303, 169);
-            this.agentPanel.Name = "agentPanel";
-            this.agentPanel.Size = new System.Drawing.Size(70, 53);
-            this.agentPanel.TabIndex = 0;
-            // 
-            // agentButton
-            // 
-            this.agentButton.Location = new System.Drawing.Point(87, 42);
-            this.agentButton.Name = "agentButton";
-            this.agentButton.Size = new System.Drawing.Size(134, 78);
-            this.agentButton.TabIndex = 0;
-            this.agentButton.Text = "agent1";
-            this.agentButton.UseVisualStyleBackColor = true;
             // 
             // housePanel
             // 
@@ -276,8 +300,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.otherPanel.ResumeLayout(false);
-            this.memberPanel.ResumeLayout(false);
             this.agentPanel.ResumeLayout(false);
+            this.memberPanel.ResumeLayout(false);
             this.housePanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -305,6 +329,8 @@
         private System.Windows.Forms.Button agentButton;
         private System.Windows.Forms.Button memberButton3;
         private System.Windows.Forms.Button memberButton2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
 
     }
 }

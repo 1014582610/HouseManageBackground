@@ -15,9 +15,9 @@ namespace HouseManageBackground
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new WelcomeForm());
+            Application.Run(new MainForm());
             //Application.Run(new SaleHouseForm());
-            Application.Run(new RentHouseForm());
+            //Application.Run(new RentHouseForm());
         }
     }
 }
